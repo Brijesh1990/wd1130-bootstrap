@@ -1,0 +1,37 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+/* mobile resulations */
+@media only screen and (min-width:320px) and (max-width:480px)
+{
+.container 
+{
+    background-color: brown;
+}
+.container h1 
+{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+}
+}
+/* tab resulations */
+@media only screen and (min-width:481px) and (max-width:768px)
+{
+
+}
+/* laptops */
+@media only screen and (min-width:769px) and (max-width:1024px)
+{
+
+}
+
+/* tv or desktop or extra large */
+@media only screen and (min-width:1025px) and (max-width:1201px)
+{
+
+}
